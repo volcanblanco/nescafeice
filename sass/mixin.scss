@@ -1,0 +1,23 @@
+@mixin large-text {
+	font: {
+		family: Helvetica;
+		size: 24px;
+		weight: bold;
+	}
+	color: lime;
+}
+
+@mixin mpreset {
+	margin:0;
+	padding:0;
+}
+
+@mixin centerit {
+	margin:0 auto;
+}
+
+@mixin normalcite {
+	display: inline-block;
+	vertical-align: middle;
+	font-style: normal;
+}

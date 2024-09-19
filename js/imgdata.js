@@ -1,0 +1,28 @@
+var splashImages = [
+  'img/menu-sc4af5efe4f.png',
+  'img/icons-se5b2e56c3b.png',
+  'img/menu-ipad-s3ffb50930a.png',
+  'img/closebtn.png',
+  'img/footer.png',
+  'img/ice-left.png',
+  'img/ice-right.png',
+  'img/ingredients.png',
+  'img/instructions.png',
+  'img/logo.png',
+  'img/splash/splash-ice.png',
+  'img/splash/splash-motto.png',
+  'img/splash/splash-parallax.png',
+  'img/nescafe-orjinal/glass.png',
+  'img/nescafe-orjinal/parallax.png',
+  'img/nescafe-orjinal/touch.png'
+  // 'img/cikolata-ve-kremali/touch.png',
+  // 'img/cikolata-ve-vanilyali-dondurmali/touch.png',
+  // 'img/cikolatali-ve-taze-naneli/touch.png',
+  // 'img/dondurmali-ve-taze-seftalili/touch.png',
+  // 'img/kakao-toz-ile/touch.png',
+  // 'img/kakao-tozu-ve-taze-cilek-ile/touch.png',
+  // 'img/meyveli-yogurtlu/touch.png',
+  // 'img/muz-aromali/touch.png',
+  // 'img/muzlu-ve-cikolata-aromali/touch.png',
+  // 'img/taze-muz-ile/touch.png'
+]

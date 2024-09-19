@@ -1,0 +1,281 @@
+
+$menuColor: #777777;
+$canvas: rgba(255, 255, 0, 0.3);
+$class-slug: for !default;
+$navyColor: #00264b;
+$nescafeFont : HelveticaRounded,Helvetica,Arial,sans-serif;
+
+$default-text-shadow-color: rgba(white, 1);
+$default-text-shadow-blur: 20px;
+$default-text-shadow-v-offset: 0;
+
+@import "normalize";
+@import "compass";
+@import "mixin";
+@import "compass/utilities/general/clearfix";
+
+html,body {
+	height: 100%;
+	@include mpreset;
+}
+
+body {
+	background-color: #236ea7;
+	background-image: url('../img/iphone/iphone-back.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+header {
+
+	position: absolute;
+	left: 0;
+	top: -343px;
+	z-index: 3;
+	font-family: $nescafeFont;
+
+	nav {
+		position: relative;
+		font-size: 11px;
+		background: white;
+		height: 350px;
+		overflow: hidden;
+		@include box-shadow(rgba(0,0,0,.6) 1px 4px 8px);
+
+		strong {
+			font-weight: normal;
+			font-size: 11px;
+			color: #777;
+			text-align: center;
+			display: inline-block;
+			position: absolute;
+			width: 60px;
+			line-height: 12px;
+			left: 5px;
+			top: 70px;
+			cite {
+				font-style: normal;
+				font-size: 13px;
+			}
+		}
+
+		a {
+			color: $menuColor;
+			position: relative;
+			margin-bottom: 25px;
+			background: yellow;
+			&:hover strong {
+				color: lighten($menuColor, 20%);
+			}
+		}
+	}
+	nav li.active {
+		display: none;
+	}
+}
+
+.controller {
+	bottom: -77px;
+	position: absolute;
+	left: 50%;
+	margin-left: -55px;
+	width: 111px;
+	height: 77px;
+	overflow: hidden;
+	img {
+		cursor: pointer;
+	}
+}
+
+.main {
+	@include mpreset;
+}
+
+.main article {
+	
+	.temp {
+		font-size: 200px;
+		background: rgba(255, 0, 0, 0.2);
+		color: maroon;
+		line-height: 200px;
+		display: inline-block;
+	}
+	.elements > img {}
+	h4 {
+		margin: 5px 0;
+		line-height: 17px;
+	}
+	p {
+		@include mpreset;
+		margin-bottom: 1em;
+		line-height: 20px;
+	}
+}
+ 
+.drink {
+
+	.content {
+		width: 280px;
+		height: auto;
+		margin:0 auto 0 20px;
+		color: #00264B;
+		font-family: $nescafeFont;
+
+		h1 {
+			@include mpreset;
+			font-size: 50px;
+			line-height: 50px;
+			font-weight: normal;
+			margin-bottom: 20px;
+		}
+		h3 {
+			@include mpreset;
+			font-size: 20px;
+			line-height: 20px;
+			font-weight: normal;
+			margin-bottom: 10px;
+		}
+		ul {
+			@include mpreset;
+			list-style: none;
+			margin-bottom: 1.5em;
+			line-height: 18px;
+		}
+	}
+	.elements > img {
+		display: inline-block;
+		margin: 100px 0 20px 0;
+		width: 100%;
+		height: auto;
+	}
+}
+
+.actions {
+	font-size: 14px;
+	span {
+		vertical-align: middle;
+	}
+}
+
+.ices {position:absolute;left: 50%;top: 50%;opacity:0;}
+
+.ice1 {margin-left: -390px;}
+.ice2 {margin-left: 200px;margin-top: 120px;}
+.ice3 {margin-top: -200px;margin-left: 290px;}
+.ice4 {margin-left: -320px;margin-top: 90px;}
+.ice5 {margin-left: -500px;margin-top: -100px;}
+.ice6 {margin-left:250px;}
+.ice7 {margin-top: -170px;margin-left: 180px;}
+.ice8 {margin-left: -340px;margin-top: -180px;}
+
+#percentage {
+  font-size:100px;
+  color:$navyColor;
+  font-family:$nescafeFont;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left:-30px;
+  @include single-text-shadow; 
+}
+
+.keyboard {
+  left: 50% !important;
+  top: 50% !important;
+  margin-top: 210px;
+  font-family: HelveticaRounded,Helvetica,Arial,sans-serif;
+  width: 210px;
+  text-align: center;
+  margin-left: -100px;
+  color:$navyColor;
+  img {
+	margin-right: -250px;
+	margin-top: -100px;
+  }
+}
+
+.icons-sprite {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+}
+
+.menu-sprite {
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+}
+
+.menu-ipad-sprite {
+	display: inline-block;
+	width: 100px;
+	height: 100px;   
+}
+
+.actions .touches {
+	cursor: pointer;
+	line-height: 40px;
+	display: inline-block;
+}
+
+.modal {
+	font-family: $nescafeFont;
+	position: absolute;
+	z-index: 10;
+	top: 50px;
+	left: 50%;
+	top: 50%;
+	color: $navyColor;
+	.wrapper {
+		position: relative;
+	}
+	h1 {
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 16px;
+		position: absolute;
+		left: 10px;
+		margin-left: 100px;
+		top: 50px;
+	}
+	p {
+		font-size: 11px;
+		position: absolute;
+		width:50%;
+		line-height: 9px;
+		left: 10px;
+		margin-left: 100px;
+		top: 75px;
+	}
+	.closebtn {
+		position: absolute;
+		cursor: pointer;
+		right: 10px;
+		width: 60px;
+		height: 60px;
+		top: 10px;
+		background: url(../img/closebtn.png) no-repeat left top;
+	}
+}
+
+footer.indexfooter{
+	background:url(../img/footerindex.png) no-repeat center center;
+
+	.homeicon {
+		display: none;
+	}
+
+	.nescafelink {
+		display: inline-block;
+	}
+}
+
+.social-twitter,.social-facebook { cursor:pointer }
+.leftarrow {position:absolute;left:0;top:50%;margin-top:-25px;z-index:2;margin-left:15px;cursor:pointer;opacity:0}
+.rightarrow {position:absolute;right:0;top:50%;margin-top:-25px;z-index:2;margin-right:15px;cursor:pointer;opacity:0}
+
+@import "icons/*.png";
+@include all-icons-sprites;
+
+@import "iphone/menu/*.png";
+@include all-menu-sprites;

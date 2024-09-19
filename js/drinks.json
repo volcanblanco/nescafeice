@@ -1,0 +1,26 @@
+{
+	"drinks" : [
+		{
+			"kind" : "NESCAFÉ® ICE",
+			"title" : "Kakao Tozu ve Taze Çilek ile",
+			"ingredients" : [
+				"3 çay kasıgı NESCAFÉ® Classic", 
+				"4 çay kasıgı toz seker", 
+				"200 ml. süt (Ortalama 1 su bardagı)", 
+				"1 Tepeleme tatlı kasıgı Nesquik® Kakao Tozu",
+				"2 adet taze çilek"
+				],
+			"instructions" : "Blenderın içine ürünler istenilen miktarlarda konur ve kapak kapatıldıktan sonra yaklasık 8-10 saniye kadar blenderda karıstırılır. Büyük bir bardaga konulur. Doldurulan bardaga istenirse 3 küp buz ilave edilir ve bir adet pipet ile servis edilir."
+		},
+		{
+			"kind" : "NESCAFÉ® ICE",
+			"title" : "Çikolata ve Kremalı (GURME)",
+			"ingredients" : [
+				"3 çay kasıgı NESCAFÉ® Classic", 
+				"4 çay kasıgı toz seker", 
+				"200 ml. süt (Ortalama 1 su bardagı)"
+				],
+			"instructions" : "Blenderın içine ürünler istenilen miktarlarda konur ve kapak kapatıldıktan sonra yaklasık 8-10 saniye kadar blenderda karıstırılır. Büyük bir bardaga konulur. Doldurulan bardaga istenirse 3 küp buz ilave edilir ve bir adet pipet ile servis edilir."
+		}
+	]
+}

@@ -1,0 +1,715 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Nescafe Ice</title>
+
+	<meta charset="UTF-8">
+
+	<meta property="og:title" content="NESCAFÉ® Ice">
+    <meta property="og:image" content="http://www.bisoguknescafe.com/img/300x300.jpg">
+    <meta property="og:description" content="NESCAFÉ®'den yaza özel soğuk tarifler">
+
+    <meta property="fb:admins" content="----------">
+    <meta property="fb:app_id" content="----------">
+
+    <meta name="description" content="NESCAFÉ®'den yaza özel soğuk tarifler">
+    <meta name="keyword" content="Nescafe, Nescafe Classic, Nescafe ice, Soğuk içecek, Muz aromalı, Çikolatalı, Şeftali aromalı, Meyveli Yoğurtlu, Taze Naneli, Vanilya Dondurmalı, Çilekli">
+
+    <meta itemprop="name" content="NESCAFÉ®'den yaza özel soğuk tarifler">
+    <meta itemprop="image" content="http://www.bisoguknescafe.com/img/300x300.jpg">
+
+    <meta itemprop="name" content="NESCAFÉ® Ice">
+	<meta itemprop="description" content="Nescafé'den yaza özel soğuk tarifler">
+	<meta itemprop="image" content="http://http://www.digitalmccann.net/nescafe-cold-test/img/300x300.jpg"> <!-- 180x120 for google-plus -->
+	<meta itemprop="image" content="http://www.bisoguknescafe.com/img/300x300.jpg"> <!-- 180x120 for google-plus -->
+	
+	<script src="js/imgdata.js"></script>
+	<link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+	<link href="fonts/helveticaroundedltstd-bdcn-trrs.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
+
+	<!--[if IE]>
+		<link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<![endif]-->
+
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+
+</head>
+<body>
+
+	<div id="loadingmessage">Yükleniyor</div>
+	<div id="loadingscreen"></div>
+	<div id="percentage"></div>
+
+	<!-- 
+	<span class="numb0" style="display:none;"><img src="img/temp/0.png" alt=""></span>
+	<span class="numb1" style="display:none;"><img src="img/temp/1.png" alt=""></span>
+	<span class="numb2" style="display:none;"><img src="img/temp/2.png" alt=""></span>
+	<span class="numb3" style="display:none;"><img src="img/temp/3.png" alt=""></span>
+	<span class="numb4" style="display:none;"><img src="img/temp/4.png" alt=""></span>
+	<span class="numb5" style="display:none;"><img src="img/temp/5.png" alt=""></span>
+	<span class="numb6" style="display:none;"><img src="img/temp/6.png" alt=""></span>
+	<span class="numb7" style="display:none;"><img src="img/temp/7.png" alt=""></span>
+	<span class="numb8" style="display:none;"><img src="img/temp/8.png" alt=""></span>
+	<span class="numb9" style="display:none;"><img src="img/temp/9.png" alt=""></span> 
+	-->
+
+	<img src="img/left-arrow.png" alt="" class="leftarrow">
+	<img src="img/right-arrow.png" alt="" class="rightarrow">
+
+	<!-- 
+    <audio style="display:none">
+	    <source src = "music.ogg" type = "audio/ogg" />
+	    <source src = "music.mp3" type = "audio/mpeg" />
+	    Your browser does not support HTML5 Audio. Please shift to a newer browser.
+	</audio>
+	-->
+	<div id="nescafe">
+
+		<header>
+			<nav>
+				<ul>
+					<li>
+						<a href="#/cikolata-ve-kremali" class="menu-cikolatalivekremali">
+							<strong>Çikolata ve <cite>Kremalı (GURME)</cite></strong>
+						</a>
+					</li>
+					<li>
+						<a id="original" href="#/nescafe-orjinal" class="menu-nescafeoriginal">
+							<strong>NESCAFÉ® <cite>Orjinal</cite></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#/muz-aromali" class="menu-muzaromali">
+							<strong>Muz Aromalı</strong>
+						</a>
+					</li>
+					<li>
+						<a href="#/meyveli-yogurtlu" class="menu-meyveliyogurtlu">
+							<strong>Meyveli Yoğurtlu</strong>
+						</a>
+					</li>
+					<li>
+						<a href="#/kakao-toz-ile" class="menu-kakaotozile">
+							<strong>Kakao Toz ile</strong>
+						</a>
+					</li>
+					<li>
+						<a href="#/taze-muz-ile" class="menu-tazemuzile">
+							<strong>Taze Muz ile</strong>
+						</a>
+					</li>
+					<li>
+						<a href="#/cikolatali-ve-taze-naneli" class="menu-cikolatalivetazenaneli">
+							<strong>Çikolatalı ve <cite>Taze Naneli</cite></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#/cikolata-ve-vanilyali-dondurmali" class="menu-cikolatavevanilyadondurmali">
+							<strong>Çikolata ve <cite>Vanilyalı Dondurmalı</cite></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#/kakao-tozu-ve-taze-cilek-ile" class="menu-kakaotozuvetazecilekile">
+							<strong>Kakao Tozu ve <cite>Taze Çilek ile</cite></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#/dondurmali-ve-taze-seftalili" class="menu-dondurmalivesaftalili">
+							<strong>Dondurmalı ve <cite>Taze Şeftalili</cite></strong>
+						</a>
+					</li>
+					<li>
+						<a href="#/muzlu-ve-cikolata-aromali" class="menu-muzluvecikolataaromali">
+							<strong>Muzlu ve <cite>Çikolata Aromalı</cite></strong>
+						</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="controller">
+				<img src="img/menu/open-menu.png" alt="" class="open">
+				<img src="img/menu/close-menu.png" alt="" class="close">
+			</div>
+		</header>
+
+		<footer>
+			<p>
+				©2013 NESCAFÉ - Tüm hakları Saklıdır.
+				<!-- 
+				<a href="#terms">Kullanım Koşulları</a> ve 
+				<a href="#privacy">Gizlilik</a> 
+				-->
+			</p>
+
+			<a href="#/index" class="homeicon"><img src="img/homeicon.png" alt=""></a>
+			<a href="http://www.nescafe.com.tr" class="nescafelink" target="_blank"></a>
+
+			<div>
+				<a class="icons-footerfacebook"></a>
+				<a class="icons-footertwitter"></a>
+			</div>
+		</footer>
+
+		<section class="main" role="main" id="main">
+
+			<article class="splash" data-drink="index">
+
+				<!-- <a href="http://leftarrow.com" class="icons-leftarrow"></a>
+				<a href="http://rightarrow.com" class="icons-rightarrow"></a> -->
+
+				<!-- <img src="img/splash/splash-ice.png" alt="" class="ice">
+				<img src="img/splash/splash-motto.png" alt="" class="motto">
+				<img src="img/splash/splashparallax.png" alt="" class="nescafe"> -->
+
+				<div class="ice"></div>
+				<div class="motto"></div>
+				<div class="nescafe"></div>
+
+				<img src="img/splash/ice1.png" alt="" class="ices ice1">
+				<img src="img/splash/ice2.png" alt="" class="ices ice2">
+				<img src="img/splash/ice3.png" alt="" class="ices ice3">
+				<img src="img/splash/ice4.png" alt="" class="ices ice4">
+				<img src="img/splash/ice5.png" alt="" class="ices ice5">
+				<img src="img/splash/ice6.png" alt="" class="ices ice6">
+				<img src="img/splash/ice7.png" alt="" class="ices ice7">
+				<img src="img/splash/ice8.png" alt="" class="ices ice8">
+
+				<!-- <div class="keyboard">
+					<p>Klavyenin yön tuşlarını kullanarak tarifleri görebilirsiniz.</p>
+					<img src="img/splash/keyboard.png" alt=""></img>
+				</div> -->
+
+				<span id="enter-site" class="little-touches">	</span>
+
+			</article>
+
+			<article class="drink drink-1" data-drink="cikolata-ve-kremali">
+				<div class="elements">
+
+					<div class="content">
+						<div>
+							<h3>NESCAFÉ® ICE</h3>
+							<h1>Çikolata ve <br>Kremalı (GURME)</h1>
+						</div>
+
+						<h4><img src="img/ingredients.png" alt=""></h4>
+		
+						<ul>
+							<li>3 çay kaşığı NESCAFÉ® Classic </li>
+							<li>4 çay kaşığı toz şeker </li>
+							<li>200 ml. soğuk süt (ortalama 1 su bardağı) </li>
+							<li>30g. bitter çikolata </li>
+							<li>3 yemek kaşığı tatlı krema</li>
+						</ul>
+
+						<h4><img src="img/instructions.png" alt=""></h4>
+
+						<p>Krema ve çikolata , benmare usulünde eritilir ve kıvamında bir karışım olana kadar karıştırılır. Hazırlanan karışım ve diğer ürünler bir bardağa dökülür. Benderla veya el mikseriyle  karıştırılır.</p>
+
+						<div class="actions">
+							<span class="touches" data-drink="cikolata-ve-kremali">
+								<span href="http://touches.com" class="icons-touches"></span> Küçük Dokunuşlar
+							</span>
+							<span class="social-facebook">
+								<span href="http://sharefacebook.com" class="icons-sharefacebook"></span> Facebook'ta Paylaş
+							</span>
+							<span class="social-twitter">
+								<span href="http://sharetwitter.com" class="icons-sharetwitter"></span> Twitter'da Paylaş
+							</span>
+						</div>
+					</div>
+
+					<img class="glass" src="img/cikolata-ve-kremali/glass.png" alt="">
+					<img class="parallax" src="img/cikolata-ve-kremali/parallax.png" alt="">
+					<img class="logo" src="img/logo.png" alt="">
+					<img class="left" src="img/ice-left.png" alt="">
+					<img class="right" src="img/ice-right.png" alt="">
+				</div>
+			</article>
+
+			<article class="drink drink-2" data-drink="nescafe-orjinal">
+				<div class="elements">
+
+					<div class="content">
+						<div>
+							<h3>NESCAFÉ® ICE</h3>
+							<h1>NESCAFÉ® Original</h1>
+						</div>
+
+						<h4><img src="img/ingredients.png" alt=""></h4>
+
+						<ul>
+							<li>3 çay kaşığı NESCAFÉ® Classic</li>
+							<li>4 çay kaşığı toz şeker</li>
+							<li>200 ml. soğuk süt (ortalama 1 su bardağı)</li>
+						</ul>
+
+						<h4><img src="img/instructions.png" alt=""></h4>
+
+						<p>Büyük bir bardağın içerisine istenilen miktarlarda ürünleri koyun ve kaşık yardımıyla karıştırın. Doldurulan bardağa dilerseniz 3 küp buz ilave edebilirsiniz.</p>
+
+						<h4><img src="img/bolkopuk.png" alt=""></h4>
+
+						<p>
+							İstenilen miktardaki ürünlerin tamamını blendera koyun, kapağını kapatın ve 8-10 saniye karıştırın. Karışımı büyük bir bardağa doldurduktan sonra dilerseniz 3 küp buz ilave edebilirsiniz. NESCAFÉ® Ice’ın keyfine varın!
+						</p>
+
+						<div class="actions">
+							<span class="touches" data-drink="nescafe-orjinal">
+								<span href="http://touches.com" class="icons-touches"></span> Küçük Dokunuşlar
+							</span>
+							<span class="social-facebook">
+								<span href="http://sharefacebook.com" class="icons-sharefacebook"></span> Facebook'ta Paylaş
+							</span>
+							<span class="social-twitter">
+								<span href="http://sharetwitter.com" class="icons-sharetwitter"></span> Twitter'da Paylaş
+							</span>
+						</div>
+					</div>
+
+					<img class="glass" src="img/nescafe-orjinal/glass.png" alt="">
+					<img class="parallax" src="img/nescafe-orjinal/parallax.png" alt="">
+
+					<img class="logo" src="img/logo.png" alt="">
+					<img class="left" src="img/ice-left.png" alt="">
+					<img class="right" src="img/ice-right.png" alt="">
+				</div>
+			</article>
+
+			<article class="drink drink-3" data-drink="muz-aromali">
+				<div class="elements">
+
+					<div class="content">
+						<div>
+							<h3>NESCAFÉ® ICE</h3>
+							<h1>Muz Aromalı</h1>
+						</div>
+
+						<h4><img src="img/ingredients.png" alt=""></h4>
+
+						<ul>
+							<li>3 çay kaşığı NESCAFÉ® Classic</li>
+							<li>4 çay kaşığı toz şeker</li>
+							<li>180ml. Nesquik® muzlu soğuk süt (1 küçük kutu)</li>
+						</ul>
+
+						<h4><img src="img/instructions.png" alt=""></h4>
+
+						<p>İstenilen miktardaki ürünlerin tamamını bir bardağa koyun , blenderla veya el mikseriyle  karıştırın. NESCAFÉ® Ice’ın keyfine varın!</p>
+
+						<div class="actions">
+							<span class="touches" data-drink="muz-aromali">
+								<span href="http://touches.com" class="icons-touches"></span> Küçük Dokunuşlar
+							</span>
+							<span class="social-facebook">
+								<span href="http://sharefacebook.com" class="icons-sharefacebook"></span> Facebook'ta Paylaş
+							</span>
+							<span class="social-twitter">
+								<span href="http://sharetwitter.com" class="icons-sharetwitter"></span> Twitter'da Paylaş
+							</span>
+						</div>
+					</div>
+
+					<img class="glass" src="img/muz-aromali/glass.png" alt="">
+					<img class="parallax" src="img/muz-aromali/parallax.png" alt="">
+
+					<img class="logo" src="img/logo.png" alt="">
+					<img class="left" src="img/ice-left.png" alt="">
+					<img class="right" src="img/ice-right.png" alt="">
+				</div>
+			</article>
+
+			<article class="drink drink-4" data-drink="meyveli-yogurtlu">
+				<div class="elements">
+					<div class="content">
+						<div>
+							<h3>NESCAFÉ® ICE</h3>
+							<h1>Meyveli Yoğurtlu</h1>
+						</div>
+
+						<h4><img src="img/ingredients.png" alt=""></h4>
+
+						<ul>
+							<li>3 çay kaşığı NESCAFÉ® Classic</li>
+							<li>4 çay kaşığı toz şeker</li>
+							<li>150 ml. soğuk süt (ortalama 1.5 küçük çay bardağı)</li>
+							<li>125g. çilekli yoğurt (1 porsiyon)</li>
+						</ul>
+
+						<h4><img src="img/instructions.png" alt=""></h4>
+
+						<p>İstenilen miktardaki ürünlerin tamamını bir bardağa koyun , blenderla veya el mikseriyle  karıştırın. NESCAFÉ® Ice’ın keyfine varın!</p>
+
+						<div class="actions">
+							<span class="touches" data-drink="meyveli-yogurtlu">
+								<span href="http://touches.com" class="icons-touches"></span> Küçük Dokunuşlar
+							</span>
+							<span class="social-facebook">
+								<span href="http://sharefacebook.com" class="icons-sharefacebook"></span> Facebook'ta Paylaş
+							</span>
+							<span class="social-twitter">
+								<span href="http://sharetwitter.com" class="icons-sharetwitter"></span> Twitter'da Paylaş
+							</span>
+						</div>
+					</div>
+
+					<img class="glass" src="img/meyveli-yogurtlu/glass.png" alt="">
+					<img class="parallax" src="img/meyveli-yogurtlu/parallax.png" alt="">
+					<img class="logo" src="img/logo.png" alt="">
+					<img class="left" src="img/ice-left.png" alt="">
+					<img class="right" src="img/ice-right.png" alt="">
+				</div>
+			</article>
+
+			<article class="drink drink-5" data-drink="kakao-toz-ile">
+				<div class="elements">
+					<div class="content">
+						<div>
+							<h3>NESCAFÉ® ICE</h3>
+							<h1>Kakao Toz ile</h1>
+						</div>
+
+						<h4><img src="img/ingredients.png" alt=""></h4>
+
+						<ul>
+							<li>3 çay kaşığı NESCAFÉ® Classic</li>
+							<li>4 çay kaşığı toz şeker</li>
+							<li>200 ml. soğuk süt (ortalama 1 su bardağı)</li>
+							<li>1 tepeleme tatlı kaşığı Nesquik® Kakao Toz</li>
+						</ul>
+
+						<h4><img src="img/instructions.png" alt=""></h4>
+
+						<p>İstenilen miktardaki ürünlerin tamamını bir bardağa koyun , blenderla veya el mikseriyle  karıştırın. NESCAFÉ® Ice’ın keyfine varın!</p>
+
+						<div class="actions">
+							<span class="touches" data-drink="kakao-toz-ile">
+								<span href="http://touches.com" class="icons-touches"></span> Küçük Dokunuşlar
+							</span>
+							<span class="social-facebook">
+								<span href="http://sharefacebook.com" class="icons-sharefacebook"></span> Facebook'ta Paylaş
+							</span>
+							<span class="social-twitter">
+								<span href="http://sharetwitter.com" class="icons-sharetwitter"></span> Twitter'da Paylaş
+							</span>
+						</div>
+					</div>
+
+					<img class="glass" src="img/kakao-toz-ile/glass.png" alt="">
+					<img class="parallax" src="img/kakao-toz-ile/parallax.png" alt="">
+
+					<img class="logo" src="img/logo.png" alt="">
+					<img class="left" src="img/ice-left.png" alt="">
+					<img class="right" src="img/ice-right.png" alt="">
+				</div>
+			</article>
+		
+			<article class="drink drink-6" data-drink="taze-muz-ile">
+				<div class="elements">
+
+					<div class="content">
+						<div>
+							<h3>NESCAFÉ® ICE</h3>
+							<h1>Taze Muz ile</h1>
+						</div>
+
+						<h4><img src="img/ingredients.png" alt=""></h4>
+
+						<ul>
+							<li>3 çay kaşığı NESCAFÉ® Classic</li>
+							<li>4 çay kaşığı toz şeker</li>
+							<li>200 ml. soğuk süt (ortalama 1 su bardağı)</li>
+							<li>1 orta boy muzun yarısı</li>
+						</ul>
+
+						<h4><img src="img/instructions.png" alt=""></h4>
+
+						<p>İstenilen miktardaki ürünlerin tamamını bir bardağa koyun , blenderla veya el mikseriyle  karıştırın. NESCAFÉ® Ice’ın keyfine varın!</p>
+
+						<div class="actions">
+							<span class="touches" data-drink="taze-muz-ile">
+								<span href="http://touches.com" class="icons-touches"></span> Küçük Dokunuşlar
+							</span>
+							<span class="social-facebook">
+								<span href="http://sharefacebook.com" class="icons-sharefacebook"></span> Facebook'ta Paylaş
+							</span>
+							<span class="social-twitter">
+								<span href="http://sharetwitter.com" class="icons-sharetwitter"></span> Twitter'da Paylaş
+							</span>
+						</div>
+					</div>
+
+					<img class="glass" src="img/taze-muz-ile/glass.png" alt="">
+					<img class="parallax" src="img/taze-muz-ile/parallax.png" alt="">
+					
+					<img class="logo" src="img/logo.png" alt="">
+					<img class="left" src="img/ice-left.png" alt="">
+					<img class="right" src="img/ice-right.png" alt="">
+				</div>
+			</article>	
+		
+			<article class="drink drink-7" data-drink="cikolatali-ve-taze-naneli">
+				<div class="elements">
+
+					<div class="content">
+						<div>
+							<h3>NESCAFÉ® ICE</h3>
+							<h1>Çikolatalı ve <br>Taze Naneli</h1>
+						</div>
+
+						<h4><img src="img/ingredients.png" alt=""></h4>
+
+						<ul>
+							<li>3 çay kaşığı NESCAFÉ® Classic</li>
+							<li>4 çay kaşığı toz şeker</li>
+							<li>200 ml. soğuk süt (ortalama 1 su bardağı)</li>
+							<li>2 yemek kaşığı tepeleme çikolata sosu veya eritilmiş çikolata</li>
+							<li>4 yaprak taze nane</li>
+						</ul>
+
+						<h4><img src="img/instructions.png" alt=""></h4>
+
+						<p>İstenilen miktardaki ürünlerin tamamını bir bardağa koyun , blenderla veya el mikseriyle  karıştırın. NESCAFÉ® Ice’ın keyfine varın!</p>
+
+						<div class="actions">
+							<span class="touches" data-drink="cikolatali-ve-taze-naneli">
+								<span href="http://touches.com" class="icons-touches"></span> Küçük Dokunuşlar
+							</span>
+							<span class="social-facebook">
+								<span href="http://sharefacebook.com" class="icons-sharefacebook"></span> Facebook'ta Paylaş
+							</span>
+							<span class="social-twitter">
+								<span href="http://sharetwitter.com" class="icons-sharetwitter"></span> Twitter'da Paylaş
+							</span>
+						</div>
+					</div>
+
+					<img class="glass" src="img/cikolatali-ve-taze-naneli/glass.png" alt="">
+					<img class="parallax" src="img/cikolatali-ve-taze-naneli/parallax.png" alt="">
+
+					<img class="logo" src="img/logo.png" alt="">
+					<img class="left" src="img/ice-left.png" alt="">
+					<img class="right" src="img/ice-right.png" alt="">
+				</div>
+			</article>
+
+			<article class="drink drink-8" data-drink="cikolata-ve-vanilyali-dondurmali">
+				<div class="elements">
+
+					<div class="content">
+						<div>
+							<h3>NESCAFÉ® ICE</h3>
+							<h1>Çikolata ve<br> Vanilyalı Dondurmalı</h1>
+						</div>
+
+						<h4><img src="img/ingredients.png" alt=""></h4>
+
+						<ul>
+							<li>3 çay kaşığı NESCAFÉ® Classic</li>
+							<li>4 çay kaşığı toz şeker</li>
+							<li>200 ml. soğuk süt (ortalama 1 su bardağı)</li>
+							<li>1 top vanilyalı dondurma</li>
+							<li>1 top çikolatalı dondurma</li>
+						</ul>
+
+						<h4><img src="img/instructions.png" alt=""></h4>
+
+						<p>İstenilen miktardaki ürünlerin tamamını bir bardağa koyun , blenderla veya el mikseriyle  karıştırın. NESCAFÉ® Ice’ın keyfine varın!</p>
+
+						<div class="actions">
+							<span class="touches" data-drink="cikolata-ve-vanilyali-dondurmali">
+								<span href="http://touches.com" class="icons-touches"></span> Küçük Dokunuşlar
+							</span>
+							<span class="social-facebook">
+								<span href="http://sharefacebook.com" class="icons-sharefacebook"></span> Facebook'ta Paylaş
+							</span>
+							<span class="social-twitter">
+								<span href="http://sharetwitter.com" class="icons-sharetwitter"></span> Twitter'da Paylaş
+							</span>
+						</div>
+					</div>
+
+					<img class="glass" src="img/cikolata-ve-vanilyali-dondurmali/glass.png" alt="">
+					<img class="parallax" src="img/cikolata-ve-vanilyali-dondurmali/parallax.png" alt="">
+
+					<img class="logo" src="img/logo.png" alt="">
+					<img class="left" src="img/ice-left.png" alt="">
+					<img class="right" src="img/ice-right.png" alt="">
+				</div>
+			</article>
+
+			<article class="drink drink-9" data-drink="kakao-tozu-ve-taze-cilek-ile">
+				<div class="elements">
+					<div class="content">
+						<div>
+							<h3>NESCAFÉ® ICE</h3>
+							<h1>Kakao Tozu ve <br> Taze Çilek ile</h1>
+						</div>
+		
+						<h4><img src="img/ingredients.png" alt=""></h4>
+
+						<ul>
+							<li>3 çay kaşığı NESCAFÉ® Classic</li>
+							<li> 4 çay kaşığı toz şeker</li>
+							<li> 200 ml. soğuk süt (Ortalama 1 su bardağı)</li>
+							<li> 1 Tepeleme tatlı kaşığı Nesquik® Kakao Tozu</li>
+							<li> 2 adet taze çilek</li>
+						</ul>
+
+						<h4><img src="img/instructions.png" alt=""></h4>
+
+						<p>İstenilen miktardaki ürünlerin tamamını bir bardağa koyun , blenderla veya el mikseriyle  karıştırın. NESCAFÉ® Ice’ın keyfine varın!</p>
+
+						<div class="actions">
+							<span class="touches" data-drink="kakao-tozu-ve-taze-cilek-ile">
+								<span href="http://touches.com" class="icons-touches"></span> Küçük Dokunuşlar
+							</span>
+							<span class="social-facebook">
+								<span href="http://sharefacebook.com" class="icons-sharefacebook"></span> Facebook'ta Paylaş
+							</span>
+							<span class="social-twitter">
+								<span href="http://sharetwitter.com" class="icons-sharetwitter"></span> Twitter'da Paylaş
+							</span>
+						</div>
+					</div>
+
+					<img class="glass" src="img/kakao-tozu-ve-taze-cilek-ile/glass.png" alt="">
+					<img class="parallax" src="img/kakao-tozu-ve-taze-cilek-ile/parallax.png" alt="">
+					<img class="logo" src="img/logo.png" alt="">
+					<img class="left" src="img/ice-left.png" alt="">
+					<img class="right" src="img/ice-right.png" alt="">
+				</div>
+			</article>
+
+			<article class="drink drink-10" data-drink="dondurmali-ve-taze-seftalili">
+				<div class="elements">
+					<div class="content">
+						<div>
+							<h3>NESCAFÉ® ICE</h3>
+							<h1>Dondurmalı ve <br>Taze Şeftalili</h1>
+						</div>
+		
+						<h4><img src="img/ingredients.png" alt=""></h4>
+
+						<ul>
+							<li>3 çay kaşığı NESCAFÉ® Classic</li>
+							<li>5 çay kaşığı toz şeker</li>
+							<li>200 ml. soğuk süt (ortalama 1 su bardağı)</li>
+							<li>1 küçük boy şeftali (kabukları soyulmus, dogranmıs)</li>
+							<li>1 top vanilyalı dondurma</li>
+						</ul>
+
+						<h4><img src="img/instructions.png" alt=""></h4>
+
+						<p>İstenilen miktardaki ürünlerin tamamını bir bardağa koyun , blenderla veya el mikseriyle  karıştırın. NESCAFÉ® Ice’ın keyfine varın!</p>
+
+						<div class="actions">
+							<span class="touches" data-drink="dondurmali-ve-taze-seftalili">
+								<span href="http://touches.com" class="icons-touches"></span> Küçük Dokunuşlar
+							</span>
+							<span class="social-facebook">
+								<span href="http://sharefacebook.com" class="icons-sharefacebook"></span> Facebook'ta Paylaş
+							</span>
+							<span class="social-twitter">
+								<span href="http://sharetwitter.com" class="icons-sharetwitter"></span> Twitter'da Paylaş
+							</span>
+						</div>
+					</div>
+
+					<img class="glass" src="img/dondurmali-ve-taze-seftalili/glass.png" alt="">
+					<img class="parallax" src="img/dondurmali-ve-taze-seftalili/parallax.png" alt="">
+					<img class="logo" src="img/logo.png" alt="">
+					<img class="left" src="img/ice-left.png" alt="">
+					<img class="right" src="img/ice-right.png" alt="">
+				</div>
+			</article>
+
+			<article class="drink drink-11" data-drink="muzlu-ve-cikolata-aromali">
+				<div class="elements">
+
+					<div class="content">
+						<div>
+							<h3>NESCAFÉ® ICE</h3>
+							<h1>Muzlu ve <br>Çikolata Aromalı</h1>
+						</div>
+
+						<h4><img src="img/ingredients.png" alt=""></h4>
+
+						<ul>
+							<li>3 çay kaşığı NESCAFÉ® Classic</li>
+							<li>4 çay kaşığı toz şeker</li>
+							<li>180ml. Nesquik® muzlu soğuk süt (1 küçük kutu)</li>
+							<li>1 tepeleme tatlı kaşığı Nesquik® Kakao Toz</li>
+						</ul>
+
+						<h4><img src="img/instructions.png" alt=""></h4>
+
+						<p>İstenilen miktardaki ürünlerin tamamını bir bardağa koyun , blenderla veya el mikseriyle  karıştırın. NESCAFÉ® Ice’ın keyfine varın!</p>
+
+						<div class="actions">
+							<span class="touches" data-drink="muzlu-ve-cikolata-aromali">
+								<span href="http://touches.com" class="icons-touches"></span> Küçük Dokunuşlar
+							</span>
+							<span class="social-facebook">
+								<span href="http://sharefacebook.com" class="icons-sharefacebook"></span> Facebook'ta Paylaş
+							</span>
+							<span class="social-twitter">
+								<span href="http://sharetwitter.com" class="icons-sharetwitter"></span> Twitter'da Paylaş
+							</span>
+						</div>
+					</div>
+
+					<img class="glass" src="img/muzlu-ve-cikolata-aromali/glass.png" alt="">
+					<img class="parallax" src="img/muzlu-ve-cikolata-aromali/parallax.png" alt="">
+
+					<img class="logo" src="img/logo.png" alt="">
+					<img class="left" src="img/ice-left.png" alt="">
+					<img class="right" src="img/ice-right.png" alt="">
+				</div>
+			</article>
+		</section>
+	
+	</div>
+
+	<div id="fb-root"></div>
+
+	<script type="text/javascript">
+	(function (d) {
+		var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+		if (d.getElementById(id)) { return; }
+		js = d.createElement('script'); js.id = id; js.async = true;
+		js.src = "//connect.facebook.net/en_US/all.js";
+		ref.parentNode.insertBefore(js, ref);
+	}(document));
+
+	window.fbAsyncInit = function(){
+		FB.init({
+			appId: '647948091901041', // App ID
+			status: true, // check login status
+			cookie: true, // enable cookies to allow the server to access the session
+			xfbml: true  // parse XFBML
+		});
+	};
+	</script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/signals.js"></script>
+	<script src="js/hasher.min.js"></script>
+	<script src="js/utils.js"></script>
+	<script src="js/main.js"></script>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-27852510-5', 'bisoguknescafe.com');
+		ga('send', 'pageview');
+	</script>
+
+</body>
+</html>

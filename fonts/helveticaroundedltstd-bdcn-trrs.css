@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'HelveticaRounded';
+    src: url('helveticaroundedltstd-bdcn-trrs.eot');
+    src: url('helveticaroundedltstd-bdcn-trrs.eot') format('embedded-opentype'),
+         url('helveticaroundedltstd-bdcn-trrs.woff') format('woff'),
+         url('helveticaroundedltstd-bdcn-trrs.ttf') format('truetype'),
+         url('helveticaroundedltstd-bdcn-trrs.svg#HelveticaRounded') format('svg');
+}
